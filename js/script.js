@@ -1,8 +1,8 @@
-const replaceName = function() {
-    let name = prompt("May I know Your name?", "User");
-    document.getElementById("name").innerHTML = name;
-};
-window.onload = replaceName;
+// const replaceName = function() {
+//     let name = prompt("May I know Your name?", "User");
+//     document.getElementById("name").innerHTML = name;
+// };
+// window.onload = replaceName;
 
 function validateForm() {
     var name = document.getElementsByClassName('name-input')[0].value;
